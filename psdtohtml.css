@@ -1,0 +1,542 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 16px;
+
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1280px;
+  padding: 0px;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bolder;
+  color: #ffffff9c;
+  margin-right: 6px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.rowCenterBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.rowJustifyEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rowJustifyStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background: #87509c;
+}
+
+.menu li {
+  margin-right: 10px;
+  color: white;
+}
+
+.menu ul {
+  width: 900px;
+  margin-left: 130px;
+  justify-content: flex-end;
+}
+
+.menu ul li {
+  margin-left: 30px;
+}
+
+.headline {
+  text-align: center;
+  color: #f7f3ea;
+  margin-bottom: 75px;
+  margin-top: 50px;
+}
+
+.btn {
+  text-align: center;
+  padding: 17px 85px;
+  background: #eb7d4b;
+  width: 155px;
+  font-size: 20px;
+  margin: auto;
+  color: white;
+  box-shadow: 1px 1px 0px 0px white;
+}
+
+.main-nav {
+  height: 418px;
+}
+
+#services {
+  background: #17c2a4;
+  height: 800px;
+}
+
+.service-headline {
+  color: #f7f3ea;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.short-desc {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.service-box {
+  width: 280px;
+}
+
+.service-img {
+  width: 130px;
+}
+
+.service-main-text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-short-text {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+}
+
+.service-img1 {
+  text-align: center;
+  width: 280px;
+  height: 210px;
+}
+
+.service-img2 {
+  text-align: center;
+  width: 280px;
+  height: 210px;
+}
+
+.service-img3 {
+  text-align: center;
+  width: 280px;
+  height: 210px;
+}
+
+.service-img4 {
+  text-align: center;
+  width: 280px;
+  height: 170px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.service-box-main.rowCenterBetween {
+  margin-top: 50px;
+}
+
+section#team-section {
+  background: #e7f1f8;
+  height: 780px;
+}
+
+.main-heading {
+  padding-top: 95px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: #3c4761;
+}
+
+#team-section p {
+  text-align: center;
+  color: #3c4761;
+  font-size: 18px;
+  padding-bottom: 35px;
+}
+
+.team-box {
+  width: 250px;
+  text-align: center;
+}
+
+.circle {
+  width: 145px;
+  height: 141px;
+  background: #878787;
+  border-radius: 100%;
+  margin: 25px auto;
+}
+
+.team-name {
+  color: #3c4761;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+.team-title {
+  color: #55c5ea;
+  margin-bottom: 25px;
+}
+
+.team-social {
+  margin-top: 25px;
+}
+
+.team-social i {
+  color: white;
+  background: #bdd1df;
+  font-size: 18px;
+  padding: 13px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+section.skil-section {
+  background: #ffffff;
+}
+
+.skill_heading {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 95px;
+  word-spacing: 13px;
+  margin-bottom: 20px;
+}
+
+.skill_short_text {
+  text-align: center;
+  width: 670px;
+  margin: auto;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.circle-inside {
+  width: 180px;
+  height: 180px;
+  background: #dfe8ed;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle-middle {
+  width: 160px;
+  height: 180px;
+  background: #30bae7;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  transform: rotatez(6deg);
+}
+
+.circle-outside {
+  width: 150px;
+  height: 150px;
+  background: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 15px;
+  right: 17px;
+}
+
+.prgressbar {
+  position: relative;
+}
+
+.progress_parcentage {
+  position: absolute;
+  top: 63px;
+  font-size: 45px;
+  left: 48px;
+}
+
+.progress_name {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+section.skil-section {
+  height: 700px;
+}
+
+section.portfolio-section {
+  background: #ffdd99;
+  height: 1500px;
+}
+
+.portfolio-heading {
+  padding-top: 95px;
+  text-align: center;
+  font-size: 30px;
+  word-spacing: 15px;
+  margin-bottom: 20px;
+}
+
+.portfolio_short_text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.portfolio-options {
+  width: 400px;
+  margin: auto;
+}
+
+.portfolio-options ul li {
+  background: #ebc985;
+  padding: 5px 20px;
+}
+
+.laptop_image1 p.p1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -25px;
+}
+
+.laptop_image2 p.p2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -44px;
+}
+
+.laptop_image3 p.p3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -48px;
+}
+
+.laptop_image4 p.p4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -24px;
+}
+
+.potfolio-Btn p {
+  background: #17c2a4;
+  width: 250px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+  word-spacing: 10px;
+  box-shadow: -1px 5px 0px 0px #14a58c;
+}
+
+section.client_review_section {
+  background: #d74680;
+  height: 800px;
+}
+
+.review-heading {
+  word-spacing: 8px;
+  padding-top: 95px;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.short_text {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  word-spacing: 8px;
+  margin-bottom: 60px;
+}
+
+.review p {
+  font-style: italic;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.review h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.review span {
+  color: #faca96;
+  font-weight: 500;
+}
+
+.review-image {
+  margin-top: -30px;
+}
+
+.reviwes.rowCenterBetween {
+  width: 600px;
+}
+footer {
+  background: #3c5499;
+  height: 900px;
+}
+
+.footer_heading {
+  padding-top: 95px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  word-spacing: 8px;
+  margin-bottom: 20px;
+}
+
+.footer_short_text {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 100px;
+}
+
+input[type="text"] {
+}
+
+.name input {
+  width: 100%;
+  background: #273a71;
+  padding: 25px 0px;
+  border-style: none;
+}
+
+.name {
+  width: 45%;
+}
+
+.mail {
+  width: 45%;
+}
+
+.mail input {
+  width: 100%;
+  background: #273a71;
+  padding: 25px 0px;
+  border-style: none;
+}
+
+.name input placeholder {
+}
+
+::placeholder {
+  color: #ffffffe8;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.message {
+  width: 1100px;
+  margin: auto;
+}
+
+.nameAndEmail.rowCenterBetween {
+  width: 1100px;
+  margin: auto;
+}
+
+.message textarea {
+  background: #273a71;
+  margin-top: 30px;
+  border-style: none;
+  width: 1100px;
+  height: 250px;
+}
+
+.message ::placeholder {
+  color: white;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+.send-msg-btn button {
+  background: #30bae7;
+  color: white;
+  padding: 18px 25px;
+  width: 215px;
+  border-style: none;
+  box-shadow: 1px 5px 0px 0px #299ec5;
+}
+
+.send-msg-btn {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.footer-list {
+  background: #344b8e;
+  padding: 55px 0px;
+}
+
+.footer-list ul li {
+  color: white;
+  font-size: 22px;
+}
+
+.menu ul li:nth-child(1) {
+  background: #643a79;
+  padding: 0px 15px;
+}
